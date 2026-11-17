@@ -1,0 +1,2 @@
+# Netlify / Cloudflare Pages: every real route is prerendered to /route/index.html; unknown URLs get the real 404 page.
+/*    /404.html    404

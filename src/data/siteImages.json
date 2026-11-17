@@ -1,0 +1,13 @@
+{
+  "_readme": "For each image: set `local` to a path under /public (e.g. \"/images/team/dr-sharma.webp\") once the file is added; it takes priority over `remote`. See docs/MISSING_ASSETS.md.",
+  "sharma": {
+    "local": null,
+    "remote": "https://lh3.googleusercontent.com/aida-public/AB6AXuDSsbUwiVLWGBOLuI7_18vYdKoIJXa58ZgqTDeaGwumQy6Dh4VThX0OkJa6ctIWpC1hp5iptp-3gwZBd0aBgPrMI4p9YuEMAKaNYZw1BBg7uxKye3XvMji7eFDJDi2fo4P3zNxzZAaHthIHxJlVE7KYRRXB-FLXhLkN5oGC82iQIcvqjquUNErQb0pAPhyKcflnqXXB4enKVDMNx8Tfq8zv30Rsj1wFZrb6nR7gPZw",
+    "expectedLocalPath": "public/images/team/dr-sharma.webp"
+  },
+  "map": {
+    "local": null,
+    "remote": "https://lh3.googleusercontent.com/aida-public/AB6AXuA_ArmuTKeGUEF_CoFpV1Cq5CyFCyIuUgkjVVVDr59ssnY18_1O6DmrstflMu9OZLRRG9gRKQkNNgGUGSYViqHRw1xIFrfmGU6iT5qBct2U-Cks7pxSRh8jVypAdMWELoabVYd-9oz0eUZgytgOd1eurSKsjFS_QXBRy2OKFY9VMUiC3JK3GW_EBs7ezOFJHanA6gB2Ug6NP4doZ2ioUk8IXYklRyijUuylwB6g6SU",
+    "expectedLocalPath": "public/images/contact/hyderabad-map.webp"
+  }
+}

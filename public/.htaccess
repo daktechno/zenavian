@@ -1,0 +1,11 @@
+# Apache: serve prerendered /route/index.html at /route, real 404 page for unknown URLs
+Options -MultiViews
+DirectorySlash Off
+ErrorDocument 404 /404.html
+RewriteEngine On
+# strip trailing slash (except root)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.+)/$ /$1 [R=301,L]
+# /route -> /route/index.html
+RewriteCond %{DOCUMENT_ROOT}/$1/index.html -f
+RewriteRule ^(.+)$ /$1/index.html [L]

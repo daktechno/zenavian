@@ -1,0 +1,12 @@
+/* Initial hidden states are applied by GSAP (from-tweens) at runtime, so
+   content is always visible without JS and when reduced motion is requested. */
+.gsap-parallax { will-change: transform; }
+
+@keyframes zen-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+.zen-pulse { animation: zen-pulse 2s ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) {
+  .zen-pulse { animation: none; }
+}
