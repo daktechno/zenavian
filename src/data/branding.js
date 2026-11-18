@@ -8,14 +8,30 @@
  * Favicon: replace /public/favicon.svg (or point `favicon` below to your files).
  * Social share image: set `ogImage` to a 1200x630 image path in /public.
  */
+// export const branding = {
+//   name: 'ZenAvian Healthcare',
+//   shortName: 'ZenAvian',
+//   descriptor: 'Healthcare',
+//   legalName: null, // TODO(owner): registered legal entity name, if different. Not invented here.
+//   tagline: 'Healthy Birds. Better Performance. Stronger Future.',
+//   logo: { src: null, alt: 'ZenAvian Healthcare', width: 160, height: 40 },
+//   logoLight: { src: null, alt: 'ZenAvian Healthcare', width: 160, height: 40 },
+//   favicon: { svg: '/favicon.svg', png: null, appleTouch: null },
+//   ogImage: { path: '/images/hero/poultry-facility.webp', width: 1376, height: 768, alt: 'Modern biosecure commercial poultry house' },
+//   themeColor: '#2D122D',
+//   /** Verified social profile URLs. Leave empty until the owner supplies real ones (they feed JSON-LD sameAs). */
+//   social: { linkedin: '', facebook: '', instagram: '', youtube: '', x: '' },
+// }
+
+
 export const branding = {
   name: 'ZenAvian Healthcare',
   shortName: 'ZenAvian',
   descriptor: 'Healthcare',
   legalName: null, // TODO(owner): registered legal entity name, if different. Not invented here.
   tagline: 'Healthy Birds. Better Performance. Stronger Future.',
-  logo: { src: null, alt: 'ZenAvian Healthcare', width: 160, height: 40 },
-  logoLight: { src: null, alt: 'ZenAvian Healthcare', width: 160, height: 40 },
+  logo: { src: '/images/logo/zaid-bg.png', alt: 'ZenAvian Healthcare', width: 160, height: 60 },
+  logoLight: { src: '/images/logo/white-logo.png', alt: 'ZenAvian Healthcare', width: 160, height: 80 },
   favicon: { svg: '/favicon.svg', png: null, appleTouch: null },
   ogImage: { path: '/images/hero/poultry-facility.webp', width: 1376, height: 768, alt: 'Modern biosecure commercial poultry house' },
   themeColor: '#2D122D',

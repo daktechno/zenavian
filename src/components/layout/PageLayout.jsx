@@ -14,7 +14,7 @@ export default function PageLayout({ path, notFound = false, children }) {
       <Seo path={path} notFound={notFound} />
       <Header />
       <div className="pt-[116px]">
-        <Breadcrumbs path={path} />
+        <Breadcrumbs path={path} /> {/* it shows breadcrumbs (Home -> Page Name) */}
         <main id="main-content" tabIndex={-1} className="w-full outline-none">
           {children}
         </main>
