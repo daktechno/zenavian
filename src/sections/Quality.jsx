@@ -25,22 +25,22 @@ export default function Quality() {
 
         <div
           data-reveal
-          className="flex flex-col items-center justify-between gap-space-lg rounded-xl border border-primary-container/30 bg-plum-dark p-space-md text-white shadow-xl sm:p-space-lg md:flex-row lg:p-space-xl"
+          className="flex flex-col items-center justify-between gap-space-lg rounded-xl border border-primary-container/30 bg-secondary-container p-space-md text-black shadow-xl sm:p-space-lg md:flex-row lg:p-space-xl"
         >
           <div className="max-w-2xl min-w-0">
-            <span className="mb-space-xs inline-block rounded-sm border border-primary-container/30 bg-plum-deep px-3 py-1 text-label-sm uppercase tracking-wider text-primary-fixed">
+            <span className="mb-space-xs inline-block rounded-sm border border-primary-container/30 bg-white px-3 py-1 text-label-sm uppercase tracking-wider text-primary">
               Global Manufacturing • Local Commitment
             </span>
-            <h2 className="mb-space-xs text-headline-md text-white">World-class Science Tailored for Indian Farm Realities</h2>
-            <p className="text-body-md text-white/90">
+            <h2 className="mb-space-xs text-headline-md text-black">World-class Science Tailored for Indian Farm Realities</h2>
+            <p className="text-body-md text-black/90">
               We combine international manufacturing expertise with our in-depth understanding of the Indian poultry
               market to bring dependable healthcare solutions to poultry professionals.
             </p>
           </div>
           <div className="min-w-0 shrink-0 text-center md:text-right">
-            <p className="mb-space-xs text-label-sm uppercase tracking-widest text-primary-container">Corporate Standard</p>
-            <div className="text-title font-bold text-white">ZenAvian Healthcare</div>
-            <p className="text-body-sm text-primary-fixed-dim">Quality Products. Trusted Partnerships. Better Poultry Health.</p>
+            <p className="mb-space-xs text-label-sm uppercase tracking-widest text-primary">Corporate Standard</p>
+            <div className="text-title font-bold text-black/70">ZenAvian Healthcare</div>
+            <p className="text-body-sm text-primary/70">Quality Products. Trusted Partnerships. Better Poultry Health.</p>
           </div>
         </div>
       </div>

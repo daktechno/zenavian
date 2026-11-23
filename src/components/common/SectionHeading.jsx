@@ -17,7 +17,7 @@ export default function SectionHeading({
       data-reveal
       className={`${
         split
-          ? 'flex flex-col justify-between gap-space-md md:flex-row md:items-end'
+          ? 'justify-between gap-space-md md:flex-row md:items-end'
           : center
             ? 'mx-auto max-w-3xl text-center'
             : 'max-w-3xl'

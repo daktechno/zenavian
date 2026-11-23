@@ -19,7 +19,7 @@ export default function DistributorPage() {
         text="Visit our contact page for phone, email and our Hyderabad and Bengaluru locations."
         actions={[
           { label: 'Contact & Locations', href: ROUTES.contact, icon: ArrowRight, iconPosition: 'right', variant: 'tonal', iconClassName: 'text-primary' },
-          { label: 'View Products', href: ROUTES.products, variant: 'outline', iconClassName: 'text-white', className: 'border-white/60 bg-transparent text-white hover:bg-white/10' },
+          { label: 'View Products', href: ROUTES.products, variant: 'outline', iconClassName: 'text-primary' },
         ]}
       />
     </>

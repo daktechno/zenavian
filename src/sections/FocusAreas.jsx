@@ -8,7 +8,7 @@ export default function FocusAreas() {
   const scope = useRef(null)
   useScrollReveal(scope)
   return (
-    <section id="focus-section" ref={scope} className="section-y w-full bg-white" aria-labelledby="focus-title">
+    <section id="focus-section" ref={scope} className="section-y w-full bg-white mt-[-5rem]" aria-labelledby="focus-title">
       <div className="container-page">
         <SectionHeading
           id="focus-title"

@@ -3,7 +3,7 @@
 
 @theme {
   /* Brand + Material-style colour tokens (from the original design) */
-  --color-plum-dark: #2d122d;
+  /* --color-plum-dark: #2d122d;
   --color-plum-deep: #3c193c;
   --color-surface-tint: #755377;
   --color-primary: #755377;
@@ -14,14 +14,35 @@
   --color-primary-fixed-dim: #e3b9e3;
   --color-secondary: #765373;
   --color-secondary-container: #ffd2f8;
-  --color-on-secondary-container: #7a5777;
-  --color-tertiary: #006c4a;
+  --color-on-secondary-container: #7a5777; */
+  /* --color-tertiary: #006c4a;
   --color-tertiary-container: #5fd3a1;
   --color-on-tertiary-container: #00593c;
   --color-error: #ba1a1a;
   --color-error-container: #ffdad6;
+  --color-on-error-container: #93000a; */
+  
+  --color-plum-dark: #2d122d;          /* Main brand purple (Buttons, highlights) */
+  --color-plum-medium: #755377;          /* Main brand purple (Buttons, highlights) */
+  --color-plum-deep: #624364;          /* Hover state ke liye halka sa deeper shade */
+  --color-surface-tint: #755377;
+  --color-primary: #755377;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #ebd7ec;  /* Soft lavender tint */
+  --color-on-primary-container: #4a2a4c;
+  --color-primary-fixed: #f3e3f4;
+  --color-primary-fixed-dim: #e0c4e1;
+  --color-secondary: #755377;          /* Secondary ko bhi primary purple ke barabar rakha hai */
+  --color-secondary-container: #f5e6f5;
+  --color-on-secondary-container: #5c3e5e;
+  --color-tertiary: #755377;           /* Green (#006c4a) hatakar single purple rakha hai */
+  --color-tertiary-container: #ebd7ec;
+  --color-on-tertiary-container: #4a2a4c;
+  --color-error: #ba1a1a;
+  --color-error-container: #ffdad6;
   --color-on-error-container: #93000a;
-  --color-background: #fff7fb;
+  
+  /* --color-background: #fff7fb;
   --color-on-background: #221825;
   --color-surface: #fff7fb;
   --color-surface-container-lowest: #ffffff;
@@ -32,7 +53,21 @@
   --color-on-surface: #221825;
   --color-on-surface-variant: #4d444b;
   --color-outline: #7e747c;
-  --color-outline-variant: #cfc3cc;
+  --color-outline-variant: #cfc3cc; */
+
+  /* Light Lavender-White Surfaces (Header & Footer matching) */
+  --color-background: #fcf8fc;
+  --color-on-background: #2b212c;
+  --color-surface: #fcf8fc;            /* Header background */
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f9f2f9;
+  --color-surface-container: #f4e8f4;
+  --color-surface-container-high: #ede0ed;
+  --color-surface-container-highest: #e5d5e5;
+  --color-on-surface: #2b212c;
+  --color-on-surface-variant: #574a58;
+  --color-outline: #857686;
+  --color-outline-variant: #dfd1e0;
 
   /* Spacing tokens */
   --spacing-space-xs: 0.25rem;

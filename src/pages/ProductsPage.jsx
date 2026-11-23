@@ -6,6 +6,7 @@ import ProductCard from '../components/cards/ProductCard'
 import Catalogue from '../sections/Catalogue'
 import CtaBanner from '../components/common/CtaBanner'
 import SectionHeading from '../components/common/SectionHeading'
+import ProductName from '../components/common/ProductName'
 import { products, productFilters } from '../data/products'
 import { ROUTES } from '../data/navigation'
 import { useScrollReveal } from '../hooks/useGSAPAnimations'
@@ -71,7 +72,7 @@ export default function ProductsPage() {
                 {products.map((p) => (
                   <tr key={p.id}>
                     <th scope="row" className="p-space-md font-bold text-on-surface">
-                      <Link to={p.path} className="inline-flex min-h-11 items-center text-plum-dark hover:text-primary hover:underline">{p.name}</Link>
+                      <Link to={p.path} className="inline-flex min-h-11 items-center text-plum-dark hover:text-primary hover:underline"><ProductName name={p.name} trademark={p.trademark} /></Link>
                     </th>
                     <td className="p-space-md text-on-surface-variant">{p.category}</td>
                     <td className="p-space-md text-on-surface-variant">{p.subtitle}</td>
@@ -91,7 +92,7 @@ export default function ProductsPage() {
         text="Talk to our team about specification sheets, dosage guidance and distribution."
         actions={[
           { label: 'Contact Our Team', href: ROUTES.contact, icon: ArrowRight, iconPosition: 'right', variant: 'tonal', iconClassName: 'text-primary' },
-          { label: 'WhatsApp Query', href: buildWhatsAppUrl(WHATSAPP_MESSAGES.general), icon: MessageCircle, variant: 'outline', iconClassName: 'text-white', className: 'border-white/60 bg-transparent text-white hover:bg-white/10' },
+          { label: 'WhatsApp Query', href: buildWhatsAppUrl(WHATSAPP_MESSAGES.general), icon: MessageCircle, variant: 'outline', iconClassName: 'text-primary' },
         ]}
       />
     </>

@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import { Bird, CircleCheck, Stethoscope, TriangleAlert, MessageCircle, ArrowRight } from 'lucide-react'
 import Button from '../common/Button'
 import Emphasis from '../common/Emphasis'
+import ProductName from '../common/ProductName'
 
 function Callout({ variant, label, text }) {
   if (variant === 'warning') {
@@ -71,7 +72,7 @@ export default function ProductCard({ product, priority = false }) {
         </div>
 
         <div className="mb-space-sm">
-          <h3 className="text-headline-md text-on-surface"><Link to={path} className="transition-colors hover:text-primary">{name}</Link></h3>
+          <h3 className="text-headline-md text-on-surface"><Link to={path} className="transition-colors hover:text-primary"><ProductName name={name} trademark={product.trademark} /></Link></h3>
           <p className="text-title font-semibold text-primary">
             <Emphasis text={subtitle} />
           </p>

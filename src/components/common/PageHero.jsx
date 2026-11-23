@@ -11,17 +11,17 @@ export default function PageHero({ eyebrow, title, accent, description, children
       <div className="container-page relative py-space-xl lg:py-24">
         <div className="grid grid-cols-1 items-end gap-space-xl lg:grid-cols-12">
           <div className={`min-w-0 ${aside ? 'lg:col-span-8' : 'lg:col-span-9'}`}>
-            {eyebrow && (
+            {/* {eyebrow && (
               <span data-hero className="mb-space-md inline-block rounded-pill border border-primary-container bg-surface-container px-3 py-1 text-label-sm font-semibold uppercase tracking-wider text-plum-dark">
                 {eyebrow}
               </span>
-            )}
+            )} */}
             <h1 data-hero className="mb-space-md text-display tracking-tight text-on-surface [text-wrap:balance]">
               {title}
               {accent && (
                 <>
                   <br className="hidden sm:inline" />
-                  <span className="font-bold text-primary"> {accent}</span>
+                  <span className="font-bold text-black"> {accent}</span>
                 </>
               )}
             </h1>

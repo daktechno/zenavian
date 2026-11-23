@@ -64,9 +64,10 @@ export default function Header() {
             <Button
               href={ROUTES.distributor}
               icon={ArrowRight}
+              variant="outline"
               iconPosition="right"
-              iconClassName="text-primary-container"
-              className="hidden min-h-11 px-space-md py-2 sm:inline-flex xl:min-h-10"
+              // iconClassName="text-primary-container"
+              className="hidden min-h-11 px-space-md py-2 sm:inline-flex xl:min-h-10 text-plum-dark"
             >
               Distributor Enquiry
             </Button>
